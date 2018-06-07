@@ -27,10 +27,11 @@
     </plugins>
   </build>
 
-  <snapshotRepository>
-        <id>My_Artifactory_Snapshots</id>
-        <name>My_Artifactory-snapshots</name>
-        <url>http://my.maven.repository.internal/artifactory/snapshot</url>
-  </snapshotRepository>
+  <distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+   </snapshotRepository>
+  </distributionManagement>
 
 </project>
