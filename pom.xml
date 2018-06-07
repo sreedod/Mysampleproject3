@@ -26,4 +26,12 @@
       </plugin>
     </plugins>
   </build>
+
+  <snapshotRepository>
+        <id>My_Artifactory_Snapshots</id>
+        <name>My_Artifactory-snapshots</name>
+        <url>http://my.maven.repository.internal/artifactory/snapshot</url>
+  </snapshotRepository>
+</distributionManagement>
+
 </project>
